@@ -1,0 +1,41 @@
+<html>
+<head>
+	<style>
+		body{
+		background-image: url("https://image.freepik.com/free-photo/black-road-texture_1160-806.jpg");
+    	background-position: center;
+    	background-size: cover;
+		}
+		#myCanvas
+		{
+			border-width:10px;
+			background-color: white; 
+			border-style:ridge;
+		}
+
+		h1,h4
+		{
+			color: white !important;
+		}
+	</style>		
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Parking Car</title>
+</head>
+
+
+<body onload = "add();">
+
+	<center>
+		<h1>Parking Car</h1>
+		<canvas id = "myCanvas" width = "800" height = "600"></canvas>
+		<h4>
+			<b class = "text-danger">NOTE : </b> IF CAR IS NOT VISIABLE PRESS ANY ARROW KEY
+		</h4>
+
+	</center>
+	<script src="main.js">
+	</script>
+</body>
+</html>
